@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PagelightPrime_BunyanSamuel_WebApp", "PagelightPrime_BunyanSamuel_WebApp.csproj", "{5AA98AB9-B667-4285-8225-939B678B8A97}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5AA98AB9-B667-4285-8225-939B678B8A97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AA98AB9-B667-4285-8225-939B678B8A97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AA98AB9-B667-4285-8225-939B678B8A97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AA98AB9-B667-4285-8225-939B678B8A97}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {49360BA6-8A30-4E57-9334-06EAF4D0CBD1}
+	EndGlobalSection
+EndGlobal
