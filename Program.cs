@@ -1,7 +1,15 @@
+using PagelightPrime_BunyanSamuel_WebApp.Contracts;
+using PagelightPrime_BunyanSamuel_WebApp.Repository;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+#region DI for Repositories
+    builder.Services.AddScoped<IUserContract,UserRepository>();
+
+#endregion
 
 var app = builder.Build();
 
@@ -22,6 +30,6 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{controller=User}/{action=Index}/{id?}");
 
 app.Run();
