@@ -1,0 +1,15 @@
+[
+
+  {
+    "inputFiles": [
+      "wwwroot/js/site.js",
+      "wwwroot/js/UserJS.js"
+    ],
+    "minify": {
+      "enabled": true
+    },
+    "outputFileName": "wwwroot/js/my.min.js"
+  }
+
+
+]

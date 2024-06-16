@@ -17,7 +17,7 @@ namespace PagelightPrime_BunyanSamuel_WebApp.Controllers
         {
             return View();
         }
-
+       
         public JsonResult ReadUsers()
         {
             var users = _userContract.ReadAllUser();
@@ -57,6 +57,7 @@ namespace PagelightPrime_BunyanSamuel_WebApp.Controllers
             if (ModelState.IsValid)
             {
                 _userContract.UpdateUser(user);
+                
 
                 return Json("User Details Updated.");
             }
